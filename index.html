@@ -15,7 +15,7 @@
         <a class="logo" href=""><span>Веб</span>Студія</a>
         <nav>
         <ul class="nav-list">
-            <li class=" list-item"><a class=" link link-current" href=" ./" >Студія </a></li>
+            <li class=" list-item"><a class=" link link-current current" href=" ./" >Студія </a></li>
             <li class=" list-item"><a class=" link" href=" ./portfolio.html" target=" _blank" rel=" noopener noreferer" >Портфоліо</a></li>
             <li class=" list-item"><a class=" link" href="">Контакти</a></li>
         </ul>
@@ -41,14 +41,12 @@
             <div class="container">
                 <h1 class=" hero-title" >Ефективні рішення для                     
                 <br> вашого бізнесу </h1>
-            <button type="button" class="hero-button" >Замовити послуги </button>
+            <button type="button" class="hero-button" data-modal-open >Замовити послуги </button>
             </div>
-            <!-- модальне вікно -->
-            <div class="backdrop">
+            <!-- Модальне вікно -->
+            <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button type="button"class="modal-button">
-                    
-                    </button>
+                    <button type="button"class="modal-button" data-modal-close></button>
                 </div>
             </div>
         </section>
